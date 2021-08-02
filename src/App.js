@@ -1,5 +1,11 @@
+import Header from './shared/components/Header/index.jsx';
+
 function App() {
-  return <div>hello world</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
 
 export default App;
