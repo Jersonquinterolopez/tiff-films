@@ -8122,7 +8122,7 @@ th {
     text-align: inherit; }
 
 html {
-  background-color: #eff0eb;
+  background-color: #ffffff;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -8162,7 +8162,7 @@ body {
   line-height: 1.5; }
 
 a {
-  color: #8a4d76;
+  color: #ff4822;
   cursor: pointer;
   text-decoration: none; }
   a strong {
