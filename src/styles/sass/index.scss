@@ -3,7 +3,6 @@
 
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-
 // Set your brand colors
 $purple: #8a4d76;
 $pink: #fa7c91;
@@ -18,6 +17,7 @@ $grey-tiff: #999999;
 $white-tiff: #ffffff;
 
 // Update Bulma's global variables
+$family-primary: 'Roboto', sans-serif;
 $family-sans-serif: 'Roboto', sans-serif;
 $grey-dark: $black-tiff;
 $grey-light: $grey-tiff;
@@ -28,7 +28,8 @@ $link: $orange-tiff;
 // $fullhd-enabled: false;
 
 // Update some of Bulma's component variables
-$body-background-color: $white-tiff;
+$body-background-color: $orange-tiff;
+$body-size: 19px;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;

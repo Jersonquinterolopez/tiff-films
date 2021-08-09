@@ -9,11 +9,11 @@ const Navbar = ({ handleClick, logo }) => {
             onClick={handleClick}
             className="navbar-menu-open button is-ghost"
           >
-            <span className="icon is-medium">
+            <span className="icon is-medium has-text-grey">
               <i className="fas fa-lg fa-bars" />
             </span>
           </button>
-          <a className="mx-auto" href="#hello">
+          <a className="mx-auto" href="/movies">
             <figure className="image is-48x48">
               <img src={logo} alt="Tiff" />
             </figure>
@@ -21,7 +21,7 @@ const Navbar = ({ handleClick, logo }) => {
           <div>
             <button className="button is-ghost">
               <span className="icon is-medium">
-                <i className="fas fa-lg fa-search" />
+                <i className="fas fa-lg fa-search has-text-grey" />
               </span>
             </button>
           </div>
