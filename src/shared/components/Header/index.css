@@ -1,0 +1,18 @@
+.full-width {
+  width: 100%;
+}
+
+.three-quarter-opacity-and-index {
+  opacity: 75%;
+  z-index: 50;
+}
+
+.three-quarter-width-and-index {
+  width: 75%;
+  z-index: 50;
+}
+
+.eighteen-width-hight {
+  width: 18px;
+  height: 18px;
+}
